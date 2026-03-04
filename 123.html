@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>白花油活動計算機</title>
+  <title>撒隆巴斯活動計算機</title>
   <style>
     :root {
       --border: #ccc;
@@ -100,7 +99,7 @@
   <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </head>
 <body>
-  <h2>白花油活動計算機</h2>
+  <h2>撒隆巴斯活動計算機</h2>
   <div class="row">
     <label>客戶名稱：<input type="text" id="customer" placeholder="例如：大里 昱昭"></label>
     <label>備註：<input type="text" id="note" placeholder="例如：急！／星期四到貨"></label>
@@ -114,33 +113,123 @@
     </thead>
     <tbody id="product-table">
       <tr>
-        <td class="name-cell">白花油 #1</td>
-        <td>240</td>
-        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="240"></td>
+        <td class="name-cell">撒隆巴斯大10<span class="thumb-dot">🔍</span></td>
+        <td>140</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="140"></td>
         <td class="subtotal">0</td>
       </tr>
       <tr>
-        <td class="name-cell">白花油 #2</td>
-        <td>154</td>
-        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="154"></td>
+        <td class="name-cell">撒隆巴斯大20<span class="thumb-dot">🔍</span></td>
+        <td>252</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="252"></td>
         <td class="subtotal">0</td>
       </tr>
       <tr>
-        <td class="name-cell">白花油 #3</td>
-        <td>89</td>
-        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="89"></td>
+        <td class="name-cell">撒隆巴斯大40<span class="thumb-dot">🔍</span></td>
+        <td>453</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="453"></td>
         <td class="subtotal">0</td>
       </tr>
       <tr>
-        <td class="name-cell">白花油 XL</td>
-        <td>432</td>
-        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="432"></td>
+        <td class="name-cell">撒隆巴斯小20<span class="thumb-dot">🔍</span></td>
+        <td>119</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="119"></td>
         <td class="subtotal">0</td>
       </tr>
       <tr>
-        <td class="name-cell">白花膏75g</td>
-        <td>300</td>
-        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="300"></td>
+        <td class="name-cell">撒隆巴斯小40<span class="thumb-dot">🔍</span></td>
+        <td>214</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="214"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯小80<span class="thumb-dot">🔍</span></td>
+        <td>383</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="383"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯舒適貼10片<span class="thumb-dot">🔍</span></td>
+        <td>194</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="194"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯酸痛噴劑118ml<span class="thumb-dot">🔍</span></td>
+        <td>218</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="218"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆適布肌兒帕奇貼片12片<span class="thumb-dot">🔍</span></td>
+        <td>270</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="270"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯溫熱用具直貼肩頸用6片<span class="thumb-dot">🔍</span></td>
+        <td>155</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="155"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯溫熱用具直貼腰背用4片<span class="thumb-dot">🔍</span></td>
+        <td>155</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="155"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯肢體護具小腿部用<span class="thumb-dot">🔍</span></td>
+        <td>602</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="602"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯肢體護具肘用<span class="thumb-dot">🔍</span></td>
+        <td>485</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="485"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯肢體護具腳踝部用<span class="thumb-dot">🔍</span></td>
+        <td>485</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="485"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯肢體護具膝用<span class="thumb-dot">🔍</span></td>
+        <td>631</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="631"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">撒隆巴斯腰部護具<span class="thumb-dot">🔍</span></td>
+        <td>1649</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="1649"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">久光冷敷貼兒童用6片<span class="thumb-dot">🔍</span></td>
+        <td>115</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="115"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">久光冷敷貼超級勁涼6片<span class="thumb-dot">🔍</span></td>
+        <td>130</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="130"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">久光冷敷貼嬰兒用6片<span class="thumb-dot">🔍</span></td>
+        <td>132</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="132"></td>
+        <td class="subtotal">0</td>
+      </tr>
+      <tr>
+        <td class="name-cell">久光驅蚊貼12片<span class="thumb-dot">🔍</span></td>
+        <td>153</td>
+        <td><input type="number" min="0" value="0" inputmode="numeric" pattern="[0-9]*" data-price="153"></td>
         <td class="subtotal">0</td>
       </tr>
     </tbody>
@@ -171,7 +260,7 @@
   <div class="sticky-bar">
     <div class="sticky-row">總計金額（含已出）：<span id="grand-total">0</span> 元</div>
     <div class="sticky-row"><span class="gift-em" id="gift-info">滿額贈品：無</span></div>
-    <div class="sticky-row" id="next-tier">距離下一支還差：— 元</div>
+    <div class="sticky-row" id="next-tier">距離下一串還差：— 元</div>
     <div class="sticky-actions">
       <button id="clear-btn">重新輸入</button>
       <button id="share-all-btn" class="primary">生成訂單圖檔並分享</button>
@@ -312,12 +401,11 @@
     });
   }
 
+  // ★ 新版贈品邏輯：每滿 10,000 送 1 串衛生紙
   function calcGifts(total){
-    const bigBlocks=Math.floor(total/21000);
-    const remainder=total%21000;
-    const smallBlocks=Math.floor(remainder/7000);
-    return bigBlocks*4+smallBlocks;
+    return Math.floor(total / 10000);
   }
+
   function currentDateStr(){
     const d=new Date(); const p=n=>n.toString().padStart(2,'0');
     return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
@@ -335,14 +423,16 @@
     lines.push(`本次總計：$${data.grand}`);
     lines.push(`之前已出：$${data.prev}`);
     lines.push(`加總金額：$${data.final}`);
-    lines.push(data.gifts > 0 ? `滿額贈：白花油 #1 × ${data.gifts} 支` : '滿額贈：無');
+    lines.push(data.gifts > 0 ? `滿額贈：衛生紙 × ${data.gifts} 串` : '滿額贈：無');
     return lines.join('\n');
   }
   function collectOrderData() {
     const rows = Array.from(document.querySelectorAll('#product-table tr'));
     const items = [];
     rows.forEach(tr => {
-      const name = tr.querySelector('.name-cell').childNodes[0]?.textContent.trim() || tr.querySelector('.name-cell').textContent.trim();
+      // 移除 "🔍" 避免文字被抓進去
+      let name = tr.querySelector('.name-cell').childNodes[0]?.textContent.trim() || tr.querySelector('.name-cell').textContent.trim();
+      name = name.replace('🔍', '').trim();
       const price = parseFloat(tr.querySelector('td:nth-child(2)').textContent.trim());
       const qty = parseInt(tr.querySelector('input').value || '0', 10);
       if (qty > 0) items.push({ name, price, qty, sub: qty * price });
@@ -375,10 +465,15 @@
     sumPrev.textContent = data.prev + ' 元';
     sumFinal.textContent = data.final + ' 元';
     grandEl.textContent = data.final;
-    const giftText = data.gifts>0 ? `滿額贈品：白花油 #1 × ${data.gifts} 支` : '滿額贈品：無';
+    
+    // 更新贈品顯示文字
+    const giftText = data.gifts > 0 ? `滿額贈品：衛生紙 × ${data.gifts} 串` : '滿額贈品：無';
     giftInfoEl.textContent = giftText;
     sumGift.textContent = giftText;
-    nextTierEl.textContent = `距離下一支還差：${Math.max(0,(Math.floor(data.final/7000)+1)*7000 - data.final)} 元`;
+    
+    // 更新下一階距離（固定 10,000 一個級距）
+    nextTierEl.textContent = `距離下一串還差：${Math.max(0, (Math.floor(data.final/10000) + 1) * 10000 - data.final)} 元`;
+    
     metaDate.textContent = currentDateStr();
     metaCustomer.textContent = custInput.value || '—';
     metaNote.textContent = noteInput.value || '—';
